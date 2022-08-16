@@ -1,3 +1,6 @@
+import React from "react";
+import Navbar from "./Components/Navbar";
+
 function App() {
   return (
     <div className="App">
@@ -6,6 +9,7 @@ function App() {
         <img className="wave2" src="../Imgs/wave2.png" alt="Wave 2" />
         <img className="wave1" src="../Imgs/wave1.png" alt="Wave 1" />
       </div>
+      <Navbar />
     </div>
   );
 }
