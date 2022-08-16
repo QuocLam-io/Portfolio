@@ -6,6 +6,7 @@ const Navbar = () => {
     <div className="navbar-parent">
       <p className="logo">Quoc Lam</p>
       <div className="nav-links">
+        
         <ul>
           <li>
             <a href="">About</a>

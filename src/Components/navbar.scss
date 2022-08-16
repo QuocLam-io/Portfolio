@@ -1,4 +1,3 @@
-//
 .navbar-parent {
   display: flex;
   justify-content: space-between;
@@ -16,18 +15,19 @@
   }
   .nav-links {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 35%;
-    border: 2px solid #fff;
-    
+    width: clamp(447px, 35%, 447px);
+
     ul {
       display: flex;
       list-style: none;
       gap: 10%;
+      font-size: 120%;
+      // border: 2px solid #fff;
     }
-
-    &:hover {
-      color: #000;
-    }
+    // p{
+    //   border: 2px solid #fff;
+    // }
   }
 }
