@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   color: #ffffffcc;
+  font-family: avenir;
 }
 a {
   color: inherit;
@@ -50,14 +51,45 @@ a {
 /* ---------------------------------- Intro --------------------------------- */
 
 .intro {
-  border: white solid 2px;
+  display: flex;
+  flex-direction: column;
   width: 87.5%;
-  height: 100%;
+  margin: 2%;
+  // gap: 16px;
+  // height: 100%;
+  // border: white solid 2px;
+
+  > * {
+    margin-bottom: 2%;
+  }
 
   .intro-header {
-    font-size: 3.13vw;
-    font-family: avenir;
     line-height: 140%;
+    font-size: clamp(40px, 3.13vw, 3.13vw);
+    font-size: minmax(40px, 3.13vw);
+  }
+
+  .intro-subheader {
+    line-height: 140%;
+    font-weight: 500;
+    font-size: clamp(28px, 1.9vw, 1.9vw);
+    // font-size: minmax(28px, 1.9vw);
+  }
+
+  .intro-text {
+    line-height: 140%;
+    font-size: clamp(24px, 0.8vw, 0.8vw);
+    // font-size: minmax(20px, 1.2vw);
+  }
+
+  .more-links {
+    display: flex;
+    width: 100%;
+    line-height: 140%;
+    font-size: clamp(24px, 0.8vw, 0.8vw);
+    color: #90caf9;
+    margin: 1% 0;
+    // border: white solid 2px;
   }
 }
 
