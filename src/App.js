@@ -10,6 +10,12 @@ function App() {
         <img className="wave1" src="../Imgs/wave1.png" alt="Wave 1" />
       </div>
       <Navbar />
+      <section className="intro">
+        <p className="intro-header">Welcome to my page 👋🏼</p>
+        <p className="intro-subheader"></p>
+
+      </section>
+      <section className="projects"></section>
     </div>
   );
 }

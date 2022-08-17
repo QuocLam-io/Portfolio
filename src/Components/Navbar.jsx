@@ -6,16 +6,21 @@ const Navbar = () => {
     <div className="navbar-parent">
       <p className="logo">Quoc Lam</p>
       <div className="nav-links">
-        
         <ul>
           <li>
-            <a href="">About</a>
+            <a target="#" href="">
+              About
+            </a>
           </li>
           <li>
-            <a href="">Resume</a>
+            <a target="#" href="">
+              Resume
+            </a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a target="#" href="">
+              Contact
+            </a>
           </li>
         </ul>
         <p>Hand-coded with love</p>
