@@ -66,20 +66,17 @@ a {
   .intro-header {
     line-height: 140%;
     font-size: clamp(40px, 3.13vw, 3.13vw);
-    font-size: minmax(40px, 3.13vw);
   }
 
   .intro-subheader {
     line-height: 140%;
     font-weight: 500;
     font-size: clamp(28px, 1.9vw, 1.9vw);
-    // font-size: minmax(28px, 1.9vw);
   }
 
   .intro-text {
     line-height: 140%;
     font-size: clamp(24px, 0.8vw, 0.8vw);
-    // font-size: minmax(20px, 1.2vw);
   }
 
   .more-links {
@@ -96,7 +93,20 @@ a {
 /* -------------------------------- Projects -------------------------------- */
 
 .projects {
-  border: white solid 2px;
+  display: flex;
   width: 87.5%;
+  // border: white solid 2px;
   // height: 1000px;
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+    // border: white solid 2px;
+
+    p {
+      font-size: clamp(28px, 1.9vw, 1.9vw);
+    }
+  }
 }
