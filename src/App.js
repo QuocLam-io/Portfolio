@@ -2,9 +2,6 @@ import React, {useEffect, useRef} from "react";
 import Typed from "typed.js";
 import Navbar from "./Components/Navbar";
 
-
-//Todo: Add blinking cursor to subehader
-
 function App() {
 
   const typedRef = useRef();
@@ -41,7 +38,7 @@ function App() {
         </p>
         <div className="more-links">
           {/* <a href="">More About Me</a> */}
-          <a href="">View My Resume</a>
+          <a href="https://drive.google.com/file/d/12yQUTmYFx7uOEnvHbTIa49nWXuOQiGTD/view?usp=sharing" target="#" >View My Resume</a>
         </div>
       </section>
       <section className="projects"></section>
