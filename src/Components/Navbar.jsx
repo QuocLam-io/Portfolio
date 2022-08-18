@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar-parent">
       <p className="logo">Quoc Lam</p>
       <div className="nav-links">
-        <ul>
+        {/* <ul>
           <li>
             <a target="#" href="">
               About
@@ -22,7 +22,7 @@ const Navbar = () => {
               Contact
             </a>
           </li>
-        </ul>
+        </ul> */}
         <p>Hand-coded with love</p>
       </div>
     </div>

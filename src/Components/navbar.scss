@@ -18,6 +18,8 @@
     align-items: center;
     justify-content: space-between;
     width: clamp(447px, 35%, 447px);
+    flex-direction: row-reverse;
+    // border: white solid 2px;
 
     ul {
       display: flex;

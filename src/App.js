@@ -62,7 +62,13 @@ function App() {
           <img src="../Imgs/chip-html.png" alt="html chip" />
           <img src="../Imgs/chip-css.png" alt="html chip" />
           <img src="../Imgs/chip-js.png" alt="html chip" />
+
         </header>
+        <div className="projects-body">
+          <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
+          <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
+          <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
+        </div>
       </section>
     </div>
   );
