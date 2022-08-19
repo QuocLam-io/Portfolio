@@ -16,9 +16,11 @@
   .nav-links {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 2%;
+    
+    justify-content: flex-end;
     width: clamp(447px, 35%, 447px);
-    flex-direction: row-reverse;
+    // flex-direction: row-reverse;
     // border: white solid 2px;
 
     ul {

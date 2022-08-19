@@ -8,9 +8,7 @@ const Navbar = () => {
       <div className="nav-links">
         {/* <ul>
           <li>
-            <a target="#" href="">
-              About
-            </a>
+\
           </li>
           <li>
             <a target="#" href="">
@@ -24,6 +22,7 @@ const Navbar = () => {
           </li>
         </ul> */}
         <p>Hand-coded with love</p>
+        <img src="./Imgs/icon-heart.png" alt="" srcset="" />
       </div>
     </div>
   );

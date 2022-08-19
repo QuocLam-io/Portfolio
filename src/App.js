@@ -43,8 +43,9 @@ function App() {
           hours into the night-- only to realize it's passed my dinner time. I
           obsessively play puzzle games and tinker with new gadgets in the
           kitchen. I'm enthralled by the rewarding feeling of solving a logic
-          based coding challenge. Feel free to peruse my projects (always more
-          to come) and have fun! 🤗
+          based coding challenge. Feel free to peruse my projects <span>(</span>
+          always more to come<span>) </span>
+          and have fun! 🤗
         </p>
         <div className="more-links">
           {/* <a href="">More About Me</a> */}
@@ -59,18 +60,46 @@ function App() {
       <section className="projects">
         <header className="project-header">
           <p>My Projects</p>
-          <img src="../Imgs/chip-html.png" alt="html chip" />
+          <div className="icon">
+            <img src="./Imgs/icon-html.png" alt="" srcset="" />
+            <p>HTML</p>
+          </div>
+          <div className="icon">
+            <img src="./Imgs/icon-css.png" alt="" srcset="" />
+            <p>CSS</p>
+          </div>
+          <div className="icon">
+            <img src="./Imgs/icon-js.png" alt="" srcset="" />
+            <p>JS</p>
+          </div>
+          {/* <div className="icon">
+            <img src="./Imgs/icon-react.png" alt="" srcset="" />
+            <p>MongoDB</p>
+          </div>
+          <div className="icon">
+            <img src="./Imgs/icon-js.png" alt="" srcset="" />
+            <p>Express</p>
+          </div>
+          <div className="icon">
+            <img src="./Imgs/icon-js.png" alt="" srcset="" />
+            <p>React</p>
+          </div>
+          <div className="icon">
+            <img src="./Imgs/icon-js.png" alt="" srcset="" />
+            <p>NodeJS</p>
+          </div> */}
+          {/* <img src="../Imgs/chip-html.png" alt="html chip" />
           <img src="../Imgs/chip-css.png" alt="html chip" />
-          <img src="../Imgs/chip-js.png" alt="html chip" />
+          <img src="../Imgs/chip-js.png" alt="html chip" /> */}
         </header>
         <div className="projects-body">
-          <a href="https://astro-boy.netlify.app/">
+          <a target="#" href="https://astro-boy.netlify.app/">
             <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
           </a>
-          <a href="https://macro-daddy.netlify.app/">
+          <a target="#" href="https://macro-daddy.netlify.app/">
             <img src="../Imgs/card-macrodaddy.svg" alt="" srcset="" />
           </a>
-          <a href="https://positive-place.netlify.app/">
+          <a target="#" href="https://positive-place.netlify.app/">
             <img src="../Imgs/card-positiveplace.svg" alt="" srcset="" />
           </a>
         </div>
