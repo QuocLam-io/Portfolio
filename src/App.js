@@ -64,13 +64,13 @@ function App() {
           <img src="../Imgs/chip-js.png" alt="html chip" />
         </header>
         <div className="projects-body">
-          <a href="">
+          <a href="https://astro-boy.netlify.app/">
             <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
           </a>
           <a href="https://macro-daddy.netlify.app/">
             <img src="../Imgs/card-macrodaddy.svg" alt="" srcset="" />
           </a>
-          <a href="">
+          <a href="https://positive-place.netlify.app/">
             <img src="../Imgs/card-positiveplace.svg" alt="" srcset="" />
           </a>
         </div>
