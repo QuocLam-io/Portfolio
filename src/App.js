@@ -36,7 +36,7 @@ function App() {
         <p className="intro-header">Hi I'm Quoc, welcome to my page! 👋🏼</p>
         <p className="intro-subheader">
           Food Scientist turned Software Engineer, and{" "}
-          <span ref={typedRef}></span>
+          <span className="cursed-blinker" ref={typedRef}></span>
         </p>
         <p className="intro-text">
           On my free time, I like long walks on the beach as much as coding long
@@ -62,12 +62,17 @@ function App() {
           <img src="../Imgs/chip-html.png" alt="html chip" />
           <img src="../Imgs/chip-css.png" alt="html chip" />
           <img src="../Imgs/chip-js.png" alt="html chip" />
-
         </header>
         <div className="projects-body">
-          <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
-          <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
-          <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
+          <a href="">
+            <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
+          </a>
+          <a href="https://macro-daddy.netlify.app/">
+            <img src="../Imgs/card-macrodaddy.svg" alt="" srcset="" />
+          </a>
+          <a href="">
+            <img src="../Imgs/card-positiveplace.svg" alt="" srcset="" />
+          </a>
         </div>
       </section>
     </div>

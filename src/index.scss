@@ -74,6 +74,10 @@ a {
     font-size: clamp(28px, 1.9vw, 1.9vw);
   }
 
+  .cursed-blinker {
+    color: orange;
+  }
+
   .intro-text {
     line-height: 140%;
     font-size: clamp(24px, 0.8vw, 0.8vw);
@@ -114,7 +118,7 @@ a {
     img {
       width: clamp(100px, 3.13vw, 3.13vw);
       height: 100%;
-      // border: white solid 2px;
+      border: white solid 2px;
     }
   }
 
@@ -124,9 +128,17 @@ a {
     justify-content: center;
     // border: 2px solid #90caf9;
     width: 100%;
-  }
 
-  img {
-width: clamp(420px, 30%, 30%);
+    a {
+      width: clamp(420px, 30%, 30%);
+      // border: white solid 2px;
+      display: flex;
+      justify-content: center;
+      
+
+      img {
+        width: 200%;
+      }
+    }
   }
 }
