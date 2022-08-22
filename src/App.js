@@ -55,6 +55,20 @@ function App() {
           >
             View My Resume
           </a>
+          <p>|</p>
+          <a
+            href="https://github.com/QuocLam-io"
+            target="#"
+          >
+            Github
+          </a>
+          <p>|</p>
+          <a
+            href="https://www.linkedin.com/in/lam-quoc/"
+            target="#"
+          >
+            LinkedIn
+          </a>
         </div>
       </section>
       <section className="projects">

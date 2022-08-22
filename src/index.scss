@@ -82,7 +82,7 @@ a {
     line-height: 140%;
     font-size: clamp(24px, 0.8vw, 0.8vw);
 
-    span{
+    span {
       color: #90caf9;
     }
   }
@@ -90,13 +90,17 @@ a {
   .more-links {
     display: flex;
     width: 100%;
+    gap: 2%;
     line-height: 140%;
     font-size: clamp(24px, 0.8vw, 0.8vw);
     color: #90caf9;
     // margin: 1% 0;
     // border: white solid 2px;
+
+  
+    }
   }
-}
+
 
 /* -------------------------------- Projects -------------------------------- */
 
@@ -124,14 +128,14 @@ a {
       align-items: center;
       height: 100%;
       // width: 5%;
-      padding:  5px 15px;
+      padding: 5px 15px;
       gap: 10px;
       border: gray solid 2px;
       border-radius: 30px;
       img {
         width: 70%;
       }
-      p{
+      p {
         font-size: 1vw;
       }
     }
@@ -153,7 +157,6 @@ a {
       width: clamp(420px, 30%, 30%);
       display: flex;
       justify-content: center;
-      
 
       img {
         width: 200%;
