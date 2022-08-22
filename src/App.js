@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
+import { motion } from "framer-motion";
 import Navbar from "./Components/Navbar";
 
 function App() {
@@ -56,17 +57,11 @@ function App() {
             View My Resume
           </a>
           <p>|</p>
-          <a
-            href="https://github.com/QuocLam-io"
-            target="#"
-          >
+          <a href="https://github.com/QuocLam-io" target="#">
             Github
           </a>
           <p>|</p>
-          <a
-            href="https://www.linkedin.com/in/lam-quoc/"
-            target="#"
-          >
+          <a href="https://www.linkedin.com/in/lam-quoc/" target="#">
             LinkedIn
           </a>
         </div>
@@ -74,18 +69,18 @@ function App() {
       <section className="projects">
         <header className="project-header">
           <p>My Projects</p>
-          <div className="icon">
+          <motion.div className="icon" whileHover={{ scale: 1.1 }}>
             <img src="./Imgs/icon-html.png" alt="" srcset="" />
             <p>HTML</p>
-          </div>
-          <div className="icon">
+          </motion.div>
+          <motion.div className="icon" whileHover={{ scale: 1.1 }}>
             <img src="./Imgs/icon-css.png" alt="" srcset="" />
             <p>CSS</p>
-          </div>
-          <div className="icon">
+          </motion.div>
+          <motion.div className="icon" whileHover={{ scale: 1.1 }}>
             <img src="./Imgs/icon-js.png" alt="" srcset="" />
             <p>JS</p>
-          </div>
+          </motion.div>
           {/* <div className="icon">
             <img src="./Imgs/icon-react.png" alt="" srcset="" />
             <p>MongoDB</p>
@@ -108,13 +103,31 @@ function App() {
         </header>
         <div className="projects-body">
           <a target="#" href="https://astro-boy.netlify.app/">
-            <img src="../Imgs/card-astroboi.svg" alt="" srcset="" />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              src="../Imgs/card-astroboi.svg"
+              alt=""
+              srcset=""
+            />
           </a>
           <a target="#" href="https://macro-daddy.netlify.app/">
-            <img src="../Imgs/card-macrodaddy.svg" alt="" srcset="" />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              src="../Imgs/card-macrodaddy.svg"
+              alt=""
+              srcset=""
+            />
           </a>
           <a target="#" href="https://positive-place.netlify.app/">
-            <img src="../Imgs/card-positiveplace.svg" alt="" srcset="" />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              src="../Imgs/card-positiveplace.svg"
+              alt=""
+              srcset=""
+            />
           </a>
         </div>
       </section>
