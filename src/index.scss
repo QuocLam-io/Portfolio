@@ -96,11 +96,8 @@ a {
     color: #90caf9;
     // margin: 1% 0;
     // border: white solid 2px;
-
-  
-    }
   }
-
+}
 
 /* -------------------------------- Projects -------------------------------- */
 
@@ -157,6 +154,20 @@ a {
       width: clamp(420px, 30%, 30%);
       display: flex;
       justify-content: center;
+
+      animation: fadeInUp 1000ms forwards;
+      opacity: 0;
+
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(80px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
 
       img {
         width: 200%;
