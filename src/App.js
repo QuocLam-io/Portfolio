@@ -9,11 +9,9 @@ function App() {
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
       strings: [
-        "Perpetual Smiler 😁",
-        "Continuous Learner",
         "Fried Chicken Enthusiast",
-        "Problem Solver",
-        "Occassional Jogger",
+        "Continuous Learner",
+        "Problem Solver"
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -44,8 +42,7 @@ function App() {
           I am a Fullstack Developer, with a penchant for Frontend and a flair for CSS. I'm driven by curiosity and approach everything in my life (both professionally and personally) with systematic quality assurance. 
 My projects provide functionality and I can proudly say, they've all been services I've always wanted to build. Have fun and take a look at my projects 🤗.
           
- <span>(</span>
-          always more to come<span>) </span>
+//  <span>(</span> always more to come<span>) </span>
 
 
 
