@@ -38,7 +38,7 @@ function App() {
           <span className="cursed-blinker" ref={typedRef}></span>
         </p>
         <p className="intro-text">
-          I am a Fullstack Developer, with a penchant for Frontend and a flair
+          I am a Fullstack Developer, with a penchant for Frontend and a aptitude
           for CSS. I'm driven by curiosity and approach everything in my life{" "}
           <span>(</span>both professionally and personally <span>)</span> with
           systematic quality assurance. My projects provide functionality and I
