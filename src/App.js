@@ -38,12 +38,9 @@ function App() {
           <span className="cursed-blinker" ref={typedRef}></span>
         </p>
         <p className="intro-text">
-          I am a Fullstack Developer, with a penchant for Frontend and a aptitude
-          for CSS. I'm driven by curiosity and approach everything in my life{" "}
-          <span>(</span>both professionally and personally <span>)</span> with
-          systematic quality assurance. My projects provide functionality and I
-          can proudly say, they've all been services I've always wanted to
-          build. Have fun and take a look at my projects 🤗.
+        I’m a software engineer motivated to improve the quality of interaction between human and tech. While developing software, it’s important for me to bridge functionality, along with intuitive design. Any problem encountered, I face as a challenge that can be resolved with enough determination and curiosity. And outside of coding, my two greater passions are <span>eating</span> and <span>
+          working out
+          </span> ...just enough to eat more.
           {/* <span>(</span>
           always more to come<span>) </span>
           and have fun! 🤗 */}
@@ -51,7 +48,7 @@ function App() {
         <div className="more-links">
           {/* <a href="">More About Me</a> */}
           <a
-            href="https://drive.google.com/file/d/12yQUTmYFx7uOEnvHbTIa49nWXuOQiGTD/view?usp=sharing"
+            href="https://drive.google.com/file/d/11OPO6lIchPSDKQFbW_Yj2Icmawd-jL9i/view?usp=sharing"
             target="#"
           >
             View My Resume
