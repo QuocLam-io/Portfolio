@@ -48,7 +48,7 @@ function App() {
         <div className="more-links">
           {/* <a href="">More About Me</a> */}
           <a
-            href="https://drive.google.com/file/d/11OPO6lIchPSDKQFbW_Yj2Icmawd-jL9i/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Lu6IJ1V-xDR-xIFIP-j0gDdhz48T1n6z/view?usp=sharing"
             target="#"
           >
             View My Resume
