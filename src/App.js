@@ -38,12 +38,7 @@ function App() {
           <span className="cursed-blinker" ref={typedRef}></span>
         </p>
         <p className="intro-text">
-        I’m a software engineer motivated to improve the quality of interaction between human and tech. While developing software, it’s important for me to bridge functionality, along with intuitive design. Any problem encountered, I face as a challenge that can be resolved with enough determination and curiosity. And outside of coding, my two greater passions are <span>eating</span> and <span>
-          working out
-          </span> ...just enough to eat more.
-          {/* <span>(</span>
-          always more to come<span>) </span>
-          and have fun! 🤗 */}
+        I’m a software engineer motivated to improve the quality of interaction between human and tech. While developing software, it’s important for me to bridge functionality, along with intuitive design. Any problem encountered, I face as a challenge that can be resolved with enough determination and curiosity.
         </p>
         <div className="more-links">
           {/* <a href="">More About Me</a> */}
