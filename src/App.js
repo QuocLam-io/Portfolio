@@ -43,7 +43,7 @@ function App() {
         <div className="more-links">
           {/* <a href="">More About Me</a> */}
           <a
-            href="https://drive.google.com/file/d/1S6dswQ9pFbCWOIC5kSRWhilAuPFE1-_7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_ur1xg3VHw4iZPcHyUyVGl9iWJXBZU-z/view?usp=sharing"
             target="#"
           >
             View My Resume
@@ -108,6 +108,15 @@ function App() {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               src="../Imgs/card-macrodaddy.svg"
+              alt=""
+              srcset=""
+            />
+          </a>
+          <a target="#" href="http://greasy-spoon.netlify.app/">
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              src="../Imgs/card-greasyspoon.svg"
               alt=""
               srcset=""
             />
