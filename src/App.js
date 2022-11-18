@@ -73,25 +73,6 @@ function App() {
             <img src="./Imgs/icon-js.png" alt="" srcset="" />
             <p>JS</p>
           </motion.div>
-          {/* <div className="icon">
-            <img src="./Imgs/icon-react.png" alt="" srcset="" />
-            <p>MongoDB</p>
-          </div>
-          <div className="icon">
-            <img src="./Imgs/icon-js.png" alt="" srcset="" />
-            <p>Express</p>
-          </div>
-          <div className="icon">
-            <img src="./Imgs/icon-js.png" alt="" srcset="" />
-            <p>React</p>
-          </div>
-          <div className="icon">
-            <img src="./Imgs/icon-js.png" alt="" srcset="" />
-            <p>NodeJS</p>
-          </div> */}
-          {/* <img src="../Imgs/chip-html.png" alt="html chip" />
-          <img src="../Imgs/chip-css.png" alt="html chip" />
-          <img src="../Imgs/chip-js.png" alt="html chip" /> */}
         </header>
         <div className="projects-body">
           <a target="#" href="https://astro-boy.netlify.app/">
@@ -112,7 +93,7 @@ function App() {
               srcset=""
             />
           </a>
-          <a target="#" href="http://greasy-spoon.netlify.app/">
+          {/* <a target="#" href="http://greasy-spoon.netlify.app/">
             <motion.img
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
@@ -120,7 +101,7 @@ function App() {
               alt=""
               srcset=""
             />
-          </a>
+          </a> */}
           <a target="#" href="https://positive-place.netlify.app/">
             <motion.img
               whileHover={{ scale: 1.1 }}
